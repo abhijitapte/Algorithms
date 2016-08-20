@@ -7,6 +7,12 @@ Fibonacci numbers can be summarized by the following relation
   F(n) = F(n-1) + F(n-2)
 ```
 
+The following relation gives the formula for calculating the nth term of Fibonacci number.
+![nth term](https://github.com/abhijitapte/Algorithms/blob/master/nth-Term.png)
+
+The [proof][Fibonacci relation proof] for the same can be obtained by solving recurrence relation.
+The notes by Prof. William Chen is a nice read on [Recurrence relations][Recurrence relations].
+
 ## Slower recursive version
 
 ### The Algorithm
@@ -174,4 +180,5 @@ Obviously, the repeated computations are really slowing down the program.
   [Recursive Fibonacci version]: <https://github.com/abhijitapte/Algorithms/blob/master/Fibonacci/fib_recursive.cpp>
   [Timing measurements]: <https://github.com/abhijitapte/Algorithms/blob/master/Fibonacci/fib_recursive_time.cpp>
   [Computations]: <https://github.com/abhijitapte/Algorithms/blob/master/Fibonacci/fib_recursive_time_computations.cpp>
-  
+  [Fibonacci relation proof]: <http://pages.pacificcoast.net/~cazelais/222/rec.pdf>
+  [Recurrence relations]: <https://rutherglen.science.mq.edu.au/wchen/lndmfolder/dm16.pdf>
