@@ -8,7 +8,7 @@ Fibonacci numbers can be summarized by the following relation
 ```
 
 The following relation gives the formula for calculating the nth term of Fibonacci number.
-![nth term](https://github.com/abhijitapte/Algorithms/blob/master/nth-Term.png)
+![nth term](https://github.com/abhijitapte/Algorithms/blob/master/Fibonacci/nth-Term.png)
 
 The [proof][Fibonacci relation proof] for the same can be obtained by solving recurrence relation.
 The notes by Prof. William Chen is a nice read on [Recurrence relations][Recurrence relations].
